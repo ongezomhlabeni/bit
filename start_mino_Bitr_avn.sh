@@ -17,10 +17,6 @@ ph add glove 1>/dev/null 2>&1
 
 sleep 2
 
-ph add proot 1>/dev/null 2>&1
-
-sleep 2
-
 cat /etc/*-release
 sleep 2
 
